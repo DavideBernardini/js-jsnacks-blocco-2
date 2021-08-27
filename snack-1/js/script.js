@@ -8,14 +8,16 @@ var somma = 0;
 // ciclo for
 // for (var i = 0; i < 5; i++) {
 //     numeri.push(parseInt(prompt("Inserisci un numero")));
-//     console.log(somma += numeri[i]);
+//     somma += numeri[i];
 // }
 
 // ciclo while
 var i = 0;
 while (i < 5) {
     numeri.push(parseInt(prompt("Inserisci un numero")));
-    console.log(somma += numeri[i]);
+    somma += numeri[i];
 
     i++
 }
+
+console.log(somma);
