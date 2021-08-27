@@ -6,18 +6,18 @@ var numeri = [];
 var somma = 0;
 
 // ciclo for
-// for (var i = 0; i < 5; i++) {
-//     numeri.push(parseInt(prompt("Inserisci un numero")));
-//     somma += numeri[i];
-// }
-
-// ciclo while
-var i = 0;
-while (i < 5) {
+for (var i = 0; i < 5; i++) {
     numeri.push(parseInt(prompt("Inserisci un numero")));
     somma += numeri[i];
-
-    i++
 }
+
+// ciclo while
+// var i = 0;
+// while (i < 5) {
+//     numeri.push(parseInt(prompt("Inserisci un numero")));
+//     somma += numeri[i];
+
+//     i++
+// }
 
 console.log(somma);
